@@ -25,5 +25,5 @@ public class AlunoService {
         alunoRepository.deleteById(id);
     }
 
-    
+
 }

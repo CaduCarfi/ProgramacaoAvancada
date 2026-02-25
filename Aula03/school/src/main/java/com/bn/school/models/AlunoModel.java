@@ -10,7 +10,7 @@ import jakarta.persistence.*;
 public class AlunoModel {
 
     @Id
-    @GeneratedValue(Strategy = GenerationType.IDENTITY)
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
 
     private long id;
     private String nome;
